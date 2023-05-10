@@ -4,7 +4,10 @@ https://internetbase.org
 
 ## Install
 
-Add this package in your existing Azle 0.16.+ project. 
+Add this package in your existing Azle 0.16.0-rc.0 project.
+Notice: It has to be this exact version or you will have problems compiling it.
+We are working on resolving the issue
+
 If you don't have one -> https://github.com/demergent-labs/azle
 
 ```bash
