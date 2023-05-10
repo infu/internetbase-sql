@@ -97,3 +97,7 @@ let [one, two, three] = db.query_tuple<[nat32, nat64, float64]>("SELECT id,
 ```
 
 db.query_tuple will return array/(ts tuple) instead of object with field names.
+
+## Demo app
+
+https://github.com/infu/internetbase-sql-demo
