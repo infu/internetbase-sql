@@ -36,9 +36,9 @@ let can = await icblast("rrkah-fqaaa-aaaaa-aaaaq-cai");
 await can.execute("CREATE TABLE .....").then(log)
 ```
 
+Add this in your canister (remove later or put access control)
 
-
-```
+```js
 $update;
 export function execute(q: string): nat32 {
   return db.execute(q);
