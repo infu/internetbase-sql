@@ -1,5 +1,7 @@
 # InternetBase CaelumCore Sql Azle Plugin
 
+https://internetbase.org
+
 ## Install
 
 Add this package in your existing Azle 0.16.0+ project. 
@@ -14,14 +16,14 @@ npm i internetbase-sql
 import { db, me } from "internetbase-sql";
 ```
 
-Note: You may no be able to compile your Azle+SQL project on Mac.
+Note: You may be unable to compile your Azle+SQL project on `Mac`.
 If you have problems, this Discord channel may help you out
 https://discord.com/channels/748416164832608337/956466775380336680
 
 
 ## Usage
 
-Blast where you can check if SQL will get things done for you: https://jglts-daaaa-aaaai-qnpma-cai.raw.ic0.app/99.b73c50bc49754964b43f3fcd547c025e31426d65b51d12ffebf080ae
+A blast where you can check if SQL will get things done for you: https://jglts-daaaa-aaaai-qnpma-cai.raw.ic0.app/99.b73c50bc49754964b43f3fcd547c025e31426d65b51d12ffebf080ae
 
 You may want to open up two canister functions and use Blast to create and populate your db like this:
 ```js
@@ -55,6 +57,8 @@ export function query(q: string): string {
 
 ```
 
+Query and return Candid Record
+
 ```js
 type Category = Record<{
   id: nat32;
@@ -71,7 +75,7 @@ export function get_categories(): Vec<Category> {
 
 ```
 
-Warning: Make sure the column names and count in your SQL query matches the record fields, or you will get obscure errors.
+Warning: Make sure the column names and count in your SQL query matches record fields, or you will get obscure errors.
 
 For example, if your query asks for `name_another` in `SELECT id, name_another, parent_id, image_url` and your record expects `name`, it will throw error.
 
