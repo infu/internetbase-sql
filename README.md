@@ -4,8 +4,7 @@ https://internetbase.org
 
 ## Install
 
-Add this package in your existing Azle 0.16.0+ project. 
-(Earlier version don't support plugins)
+Add this package in your existing Azle 0.16.+ project. 
 If you don't have one -> https://github.com/demergent-labs/azle
 
 ```bash
