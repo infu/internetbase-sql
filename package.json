@@ -1,6 +1,6 @@
 {
   "name": "internetbase-sql",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "repository": {
     "type": "git",
@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-     "azle": "0.16.0-rc.0"
+     "azle": "^0.16.0"
   }
 }
