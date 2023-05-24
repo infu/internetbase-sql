@@ -4,11 +4,11 @@ https://internetbase.org
 
 ## Install
 
-Add this package in your existing Azle 0.16.0-rc.0 project.
-Notice: It has to be this exact version or you will have problems compiling it.
-We are working on resolving the issue
+```
+npm i azle@0.16.3 internetbase-sql@0.16.3
+```
+Versions of azle and internetbase-sql need to be in sync. We are going to publish synced versions starting from 0.16.3.
 
-If you don't have one -> https://github.com/demergent-labs/azle
 
 ```bash
 npm i internetbase-sql
